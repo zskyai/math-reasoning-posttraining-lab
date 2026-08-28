@@ -1,0 +1,23 @@
+{
+  "seed": 17,
+  "device": "cpu",
+  "num_actions": 4,
+  "format_bonus": 0.1,
+  "invalid_penalty": 0.1,
+  "sft": {
+    "steps": 60,
+    "learning_rate": 0.35,
+    "target_action": 2
+  },
+  "dpo": {
+    "steps": 200,
+    "learning_rate": 0.5,
+    "beta": 1.0
+  },
+  "grpo": {
+    "steps": 500,
+    "learning_rate": 1.0,
+    "clip_eps": 0.2,
+    "eps": 1.0e-6
+  }
+}
