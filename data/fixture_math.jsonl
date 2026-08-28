@@ -1,0 +1,12 @@
+{"id":"fixture_001","question":"A box has 18 red balls and 24 blue balls. How many balls are there in total?","answer":"42","solution":"Add the two counts: 18 + 24 = 42."}
+{"id":"fixture_002","question":"A shop sells 7 packs with 8 pencils in each pack and then removes 6 damaged pencils. How many pencils remain?","answer":"50","solution":"There are 7 * 8 = 56 pencils before removing the damaged ones, so 56 - 6 = 50."}
+{"id":"fixture_003","question":"What is 3/4 + 1/8?","answer":"7/8","solution":"Convert 3/4 to 6/8, then add 1/8 to get 7/8."}
+{"id":"fixture_004","question":"Solve 2x + 5 = 17 for x.","answer":"6","solution":"Subtract 5 from both sides: 2x = 12. Divide by 2: x = 6."}
+{"id":"fixture_005","question":"What is 15 percent of 80?","answer":"12","solution":"15 percent of 80 is 0.15 * 80 = 12."}
+{"id":"fixture_006","question":"The three scores are 12, 18, and 24. What is their arithmetic mean?","answer":"18","solution":"The sum is 12 + 18 + 24 = 54, and 54 / 3 = 18."}
+{"id":"fixture_007","question":"A rectangle is 9 cm long and 4 cm wide. What is its area in square centimeters?","answer":"36","solution":"Area equals length times width: 9 * 4 = 36."}
+{"id":"fixture_008","question":"A sequence starts 2, 5, 8, 11 and increases by 3 each time. What is the tenth term?","answer":"29","solution":"The tenth term is 2 + 9 * 3 = 29."}
+{"id":"fixture_009","question":"A bag contains 3 red marbles and 2 blue marbles. What is the probability of drawing a red marble?","answer":"3/5","solution":"There are 3 red marbles out of 5 total, so the probability is 3/5."}
+{"id":"fixture_010","question":"A 120 yuan item is discounted by 25 percent. What is the sale price?","answer":"90","solution":"The discount is 0.25 * 120 = 30, so the sale price is 120 - 30 = 90."}
+{"id":"fixture_011","question":"If x divided by 3 equals 7, what is x?","answer":"21","solution":"Multiply both sides by 3: x = 7 * 3 = 21."}
+{"id":"fixture_012","question":"What is 2 to the fifth power plus 3?","answer":"35","solution":"2 to the fifth power is 32, and 32 + 3 = 35."}
