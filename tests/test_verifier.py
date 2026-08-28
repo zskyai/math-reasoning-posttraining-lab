@@ -28,6 +28,10 @@ class VerifierTests(unittest.TestCase):
         self.assertEqual(normalize_answer("-2.0"), "-2")
         self.assertEqual(normalize_answer("25%"), "1/4")
 
+    def test_thousands_separator_is_not_split(self):
+        self.assertEqual(extract_answer("Final answer: 1,000."), "1,000")
+        self.assertEqual(normalize_answer("1,000"), "1000")
+
 
 if __name__ == "__main__":
     unittest.main()
