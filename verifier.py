@@ -19,10 +19,11 @@ _MARKER_RE = re.compile(
     r"(?:####|final\s+answer|answer|答案)\s*(?:is|为|是|[:：=])?\s*(?P<tail>[^\n]+)",
     flags=re.IGNORECASE,
 )
+_NUMBER_ATOM = r"(?:(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?|\.\d+)"
 _NUMBER_RE = re.compile(
     r"(?<![A-Za-z0-9_])"
-    r"[+-]?(?:(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?"
-    r"(?:\s*/\s*[+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][+-]?\d+)?)?)"
+    rf"[+-]?{_NUMBER_ATOM}(?:[eE][+-]?\d+)?"
+    rf"(?:\s*/\s*[+-]?{_NUMBER_ATOM}(?:[eE][+-]?\d+)?)?"
     r"(?![A-Za-z0-9_])"
 )
 _BOXED_RE = re.compile(r"\\boxed\s*\{")
